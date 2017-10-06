@@ -1,0 +1,18 @@
+snippet cfnoutline "A CloudFormation Template outline"
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A sample template
+Metadata:
+Parameters:
+Mappings:
+Conditions:
+Transform:
+Resources:
+Outputs:
+endsnippet
+
+snippet awssamtemplate "A AWS SAM Template"
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: A sample template
+Resources:
+endsnippet
